@@ -4,9 +4,8 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
-  // Vercel автоматически определяет базовый путь
-  // Убираем base для Vercel
-  // base: '/videohost/',  ← Закомментируй для Vercel
+  // GitHub Pages - название репозитория: videohost
+  base: '/videohost/',
   
   plugins: [ vue(), vueDevTools() ],
   resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) } },

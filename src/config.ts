@@ -3,8 +3,7 @@ export const config = {
   // БАЗОВЫЙ URL API - МЕНЯТЬ ТОЛЬКО ЭТУ ПЕРЕМЕННУЮ!
   
   // Для хостинга (HTTP - бесплатный хостинг без SSL):
-  // Используем прокси для обхода Mixed Content ошибки
-  apiBaseUrl: 'https://api.allorigins.win/raw?url=' + encodeURIComponent('http://a1238201.xsph.ru'),
+  apiBaseUrl: 'http://a1238201.xsph.ru',
   storageUrl: 'http://a1238201.xsph.ru/storage',
   
   // Для локальной разработки (раскомментируй):
