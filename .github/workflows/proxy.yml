@@ -1,0 +1,12 @@
+name: API Proxy
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  proxy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
