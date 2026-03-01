@@ -4,8 +4,8 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
-  // GitHub Pages - название репозитория: videohost
-  base: '/videohost/',
+  // Netlify - без base (корень домена)
+  // Для GitHub Pages раскомментируй: base: '/videohost/',
   
   plugins: [ vue(), vueDevTools() ],
   resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) } },
