@@ -2,9 +2,9 @@
 export const config = {
   // БАЗОВЫЙ URL API - МЕНЯТЬ ТОЛЬКО ЭТУ ПЕРЕМЕННУЮ!
   
-  // Для хостинга (HTTP - бесплатный хостинг без SSL):
-  apiBaseUrl: 'http://a1238201.xsph.ru',
-  storageUrl: 'http://a1238201.xsph.ru/storage',
+  // Для хостинга (Railway - HTTPS):
+  apiBaseUrl: 'https://videohost-api-production.up.railway.app',
+  storageUrl: 'https://videohost-api-production.up.railway.app/storage',
   
   // Для локальной разработки (раскомментируй):
   // apiBaseUrl: 'http://localhost:8000',
